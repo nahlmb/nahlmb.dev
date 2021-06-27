@@ -14,10 +14,8 @@ I was confused and moved around in deciding what technology to make it, bu Alham
 I hope this site can be beneficial for me and for others, not only developer but everyone, thank you!
 
 *Alhamdulillahiladzi bini'mathi tathimusholihat*
-<br/>
-<br/>
-___
-<br/>
+
+<br>
 
 ## Imporant Dev Links
 *Links for development process*
