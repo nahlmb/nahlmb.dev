@@ -4,7 +4,8 @@
   "description": "Nahl Munif Basalamah's Personal site",
   "main": "index.js",
   "scripts": {
-    "build": "concurrently \"eleventy\" \"postcss source/assets/style/style.css -o public/assets/style/style.css\""
+    "build": "concurrently \"eleventy\" \"postcss source/assets/style/style.css -o public/assets/style/style.css\"",
+    "start" : "eleventy --serve"
   },
   "author": "nahlmb",
   "license": "ISC",
