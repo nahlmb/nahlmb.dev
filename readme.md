@@ -14,5 +14,14 @@ I hope this site can be beneficial for me and for others, not only developer but
 
 ---
 
-## Nunjuck Templating Engine
+# Imporant Dev Links
+Links for development process
+
+### Eleventy Static Site Generator
+https://www.11ty.dev/docs/
+
+### Nunjuck Templating Engine
 https://mozilla.github.io/nunjucks/templating.html
+
+### Netlify CMS
+https://www.netlifycms.org/docs/intro/
