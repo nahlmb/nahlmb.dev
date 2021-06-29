@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "build": "concurrently \"eleventy\" \"postcss source/assets/style/style.css -o public/assets/style/style.css\"",
-    "start" : "eleventy --serve"
+    "start": "eleventy --serve"
   },
   "author": "nahlmb",
   "license": "ISC",
   "dependencies": {
+    "@tailwindcss/typography": "^0.4.1",
     "autoprefixer": "^10.2.5",
     "postcss-cli": "^8.3.1",
     "tailwindcss": "^2.2.4",
