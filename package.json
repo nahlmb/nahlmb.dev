@@ -1,10 +1,11 @@
 {
   "name": "nahlmb",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Nahl Munif Basalamah's Personal site",
   "main": "index.js",
   "scripts": {
     "build": "concurrently \"eleventy\" \"postcss source/assets/style/style.css -o public/assets/style/style.css\"",
+    "eleventy" : "eleventy",
     "start": "eleventy --serve"
   },
   "author": "nahlmb",

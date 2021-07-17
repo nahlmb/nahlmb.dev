@@ -1,0 +1,13 @@
+---
+title : Nahl Munif Basalamah
+layout : 'base.njk'
+---
+
+
+<ul>
+{% for write in collections.writes %}
+    <li>
+        {{ write.url }}
+    </li>    
+{% endfor %}
+</ul>
