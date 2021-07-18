@@ -5,7 +5,7 @@ work_tags : ['Vue.JS']
 tags : ['works', 'featured_works']
 author : Nahl Munif Basalamah
 date : 2021-07-14
-image : /_assets/images/works/image.jpg
+image : /_assets/images/image.jpg
 image_alt : Test Works Images
 description : Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nec feugiat in fermentum posuere urna nec. Volutpat ac tincidunt vitae semper quis lectus.
 ---
