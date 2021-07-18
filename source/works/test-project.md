@@ -1,12 +1,13 @@
 ---
-title : Test Article
-write_type : diniyah
-write_tags : ['aqidah']
+title : Test Project
+work_series : Frontend Web
+work_tags : ['Vue.JS']
+tags : ['works', 'featured_works']
 author : Nahl Munif Basalamah
 date : 2021-07-14
-image : /assets/images/writes/image.jpg
-image_alt : Test Article Images
-description : Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nec feugiat in fermentum posuere urna nec. Volutpat ac tincidunt vitae semper quis lectus. A pellentesque sit amet porttitor eget dolor morbi. Accumsan tortor posuere ac ut consequat semper viverra nam libero. Id interdum velit laoreet id donec. Praesent elementum facilisis leo vel fringilla est ullamcorper eget nulla. Proin nibh nisl condimentum id venenatis a condimentum. Eget egestas purus viverra accumsan in nisl nisi scelerisque eu.
+image : /_assets/images/works/image.jpg
+image_alt : Test Works Images
+description : Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nec feugiat in fermentum posuere urna nec. Volutpat ac tincidunt vitae semper quis lectus.
 ---
 
 **Hello** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nec feugiat in fermentum posuere urna nec. Volutpat ac tincidunt vitae semper quis lectus. A pellentesque sit amet porttitor eget dolor morbi. Accumsan tortor posuere ac ut consequat semper viverra nam libero. Id interdum velit laoreet id donec. Praesent elementum facilisis leo vel fringilla est ullamcorper eget nulla. Proin nibh nisl condimentum id venenatis a condimentum. Eget egestas purus viverra accumsan in nisl nisi scelerisque eu. Sollicitudin tempor id eu nisl nunc mi ipsum faucibus vitae. Neque aliquam vestibulum morbi blandit cursus risus at. Massa id neque aliquam vestibulum morbi blandit. Laoreet sit amet cursus sit amet dictum sit amet. Lectus nulla at volutpat diam. Sit amet commodo nulla facilisi nullam vehicula ipsum a arcu. Amet est placerat in egestas erat imperdiet.

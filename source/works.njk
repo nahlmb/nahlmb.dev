@@ -1,0 +1,12 @@
+---
+layout : 'base.njk'
+---
+
+
+<ul>
+{% for work in collections.works %}
+    <li>
+        {{ work.data.title }}
+    </li>    
+{% endfor %}
+</ul>

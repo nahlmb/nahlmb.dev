@@ -2,9 +2,9 @@
 title : Nahl Munif Basalamah
 layout : 'base.njk'
 ---
-<section class="my-48">
-   <h1 class="text-6xl md:text-7xl font-bold font-display">Strive to goodness</h1>
-   <h2 class="mt-6 text-2xl md:text-3xl font-bold italic">cherish that which gives you benefit<br>
+<section class="my-32 md:my-48 text-start md:text-center">
+   <h1 class="text-6xl md:text-9xl font-bold font-display">Strive to goodness</h1>
+   <h2 class="mt-6 text-2xl md:text-6xl font-bold italic">cherish that which gives you benefit<br>
       and seek help from Allah<br>
       and do not lose heart<br>
       <span class="font-normal text-lg md:text-xl">Hadist Narrated by Muslim</span></h2>
@@ -23,24 +23,14 @@ layout : 'base.njk'
    <h2 class="text-3xl font-bold">Writes & Articles</h2>
    <div class="mt-12">
       <ul>
-         <li class="mt-8 pb-4 border-b">
-            <a href="#" onclick="toOnProgressPage()">
-               <h2 class="text-lg"><b>Vocational School Journey</b></h2>
-               <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur.</p>
+         {% for write in collections.featured_writes | reverse %}
+            <li class="mt-8 pb-4 border-b">
+            <a href="{{ write.url }}" onclick="toOnProgressPage()">
+               <h2 class="text-lg"><b>{{ write.data.title }}</b></h2>
+               <p class="text-gray-500 hover:text-black">{{ write.data.description }}</p>
             </a>
          </li>
-         <li class="mt-8 pb-4 border-b">
-            <a href="#" onclick="toOnProgressPage()">
-               <h2 class="text-lg"><b>Vocational School Journey</b></h2>
-               <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur.</p>
-            </a>
-         </li>
-         <li class="mt-8 pb-4 border-b">
-            <a href="#" onclick="toOnProgressPage()">
-               <h2 class="text-lg"><b>Vocational School Journey</b></h2>
-               <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur.</p>
-            </a>
-         </li>
+         {% endfor %}
       </ul>
    </div>
    <a href="#" onclick="toOnProgressPage()" class="flex justify-center mt-24">
@@ -51,42 +41,17 @@ layout : 'base.njk'
    <h3 class="text-gray-500">Design, Projects, Products and other works 🎒</h3>
    <h2 class="text-3xl font-bold">Works</h2>
    <div class="mt-12 flex flex-wrap items-stretch -m-3">
-      <article class="w-full md:w-1/4 p-3">
-         <div class="flex flex-col justify-between bg-black text-white rounded p-6" style="min-height: 240px;">
-            <p class="italic">Frontend Web</p>
+      {% for work in collections.featured_works | reverse %}
+      <a href="{{ work.url }}" class="w-full md:w-1/4 p-3">
+         <article class="flex flex-col justify-between bg-black text-white hover:bg-gray-800 rounded p-6" style="min-height: 240px;">
+            <p class="italic">{{ work.data.work_series }}</p>
             <div>
-               <h3 class="text-2xl font-bold font-display">Works</h3>
-               <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+               <h3 class="text-2xl font-bold font-display">{{ work.data.title }}</h3>
+               <p class="mt-2">{{ work.data.description }}</p>
             </div>
-         </div>
-      </article>
-      <article class="w-full md:w-1/4 p-3">
-         <div class="flex flex-col justify-between bg-black text-white rounded p-6" style="min-height: 240px;">
-            <p class="italic">Frontend Web</p>
-            <div>
-               <h3 class="text-2xl font-bold font-display">Works</h3>
-               <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-         </div>
-      </article>
-      <article class="w-full md:w-1/4 p-3">
-         <div class="flex flex-col justify-between bg-black text-white rounded p-6" style="min-height: 240px;">
-            <p class="italic">Frontend Web</p>
-            <div>
-               <h3 class="text-2xl font-bold font-display">Works</h3>
-               <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-         </div>
-      </article>
-      <article class="w-full md:w-1/4 p-3">
-         <div class="flex flex-col justify-between bg-black text-white rounded p-6" style="min-height: 240px;">
-            <p class="italic">Frontend Web</p>
-            <div>
-               <h3 class="text-2xl font-bold font-display">Works</h3>
-               <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-         </div>
-      </article>
+         </article>
+      </a>
+      {% endfor %}
    </div>
 </section>
 <section class="my-48">

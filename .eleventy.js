@@ -1,7 +1,7 @@
 module.exports = function(eleventyConfig) {
 
-    eleventyConfig.addPassthroughCopy('./source/assets/images')
-    eleventyConfig.addPassthroughCopy('./source/assets/icons')
+    eleventyConfig.addPassthroughCopy('./source/_assets/images')
+    eleventyConfig.addPassthroughCopy('./source/_assets/icons')
 
     return {
         dir : {
