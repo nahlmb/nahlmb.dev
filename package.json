@@ -4,7 +4,7 @@
   "description": "Nahl Munif Basalamah's Personal site",
   "main": "index.js",
   "scripts": {
-    "build": "concurrently \"eleventy\" \"postcss source/_assets/style/style.css -o public/_assets/style/style.css\" \"license-checker --markdown --out source/license/license.md --customPath licenseFormat.json\"",
+    "build": "concurrently \"eleventy\" \"postcss source/_assets/style/style.css -o public/_assets/style/style.css\"",
     "eleventy": "eleventy",
     "license": "license-checker --markdown --out source/license/license.md --customPath licenseFormat.json",
     "start": "eleventy --serve"
