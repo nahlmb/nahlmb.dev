@@ -1,4 +1,4 @@
 {
-    "layout" : "write.njk",
+    "layout" : "base_write.njk",
     "tags" : "writes"
 }

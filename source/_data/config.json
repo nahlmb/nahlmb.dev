@@ -1,3 +1,19 @@
 {
-    "base_url" : "https://nahlmb.dev"
+    "base_url" : "https://nahlmb.dev",
+    "ui" : {
+        "padding" : {
+            "small" : {
+                "horizontal" : 24,
+                "verical" : 24
+            },
+            "medium" : {
+                "horizontal" : 24,
+                "verical" : 24
+            },
+            "large" : {
+                "horizontal" : 24,
+                "verical" : 24
+            }
+        }
+    }
 }

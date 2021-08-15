@@ -22,11 +22,12 @@
    {# <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.1/dist/locomotive-scroll.min.js"></script> #}
    
 </head>
-<body class="text-black">
+<body class="text-black dark:text-white bg-white dark:bg-dark-900 dark:bg-opacity-90">
    {% include "header.njk" %}
-   <main class="max-w-screen-2xl mx-auto pt-36 pb-8 md:pt-28 md:pb-12 px-6 md:px-12">
+   <main class="max-w-screen-2xl mt-28 md:mt-16 mx-auto">
       {{ content | safe }}
    </main>
    {% include "footer.njk" %}
+   {% include "background.njk" %}
 </body>
 </html>

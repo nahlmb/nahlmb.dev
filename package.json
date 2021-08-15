@@ -4,8 +4,9 @@
   "description": "Nahl Munif Basalamah's Personal site",
   "main": "index.js",
   "scripts": {
-    "build": "concurrently \"eleventy\" \"postcss source/_assets/style/style.css -o public/_assets/style/style.css\"",
-    "eleventy" : "eleventy",
+    "build": "concurrently \"eleventy\" \"postcss source/_assets/style/style.css -o public/_assets/style/style.css\" \"license-checker --markdown --out source/license/license.md --customPath licenseFormat.json\"",
+    "eleventy": "eleventy",
+    "license": "license-checker --markdown --out source/license/license.md --customPath licenseFormat.json",
     "start": "eleventy --serve"
   },
   "author": "nahlmb",
@@ -13,12 +14,28 @@
   "dependencies": {
     "@tailwindcss/typography": "^0.4.1",
     "autoprefixer": "^10.2.5",
+    "eleventy-plugin-sass": "^1.2.0",
+    "license-report": "^4.5.0",
+    "lit": "^2.0.0-rc.2",
     "postcss-cli": "^8.3.1",
     "tailwindcss": "^2.2.4",
     "watch": "^1.0.2"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
-    "concurrently": "^6.2.0"
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/plugin-proposal-decorators": "^7.14.5",
+    "@babel/plugin-transform-modules-commonjs": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "babel-loader": "^8.2.2",
+    "concurrently": "^6.2.0",
+    "glob": "^7.1.7",
+    "html-webpack-plugin": "^5.3.2",
+    "webpack": "^5.50.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-glob-entry": "^2.1.1"
   }
 }

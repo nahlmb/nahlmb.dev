@@ -28,3 +28,9 @@ https://mozilla.github.io/nunjucks/templating.html
 
 ### Netlify CMS
 https://www.netlifycms.org/docs/intro/
+
+### Google's Lit Element
+https://lit.dev/docs
+
+## Some Credits
+Background Image : https://unsplash.com/photos/ukuLLZu64-I
