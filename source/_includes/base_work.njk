@@ -2,10 +2,10 @@
 layout: "base.njk"
 ---
 
-<section class="prose sm:prose lg:prose-lg mx-auto">
+<section class="px-6 pt-12 pb-40 prose dark:prose-dark lg:prose-lg dark:lg:prose-lg mx-auto">
    <img class="w-full rounded" src="{{ image }}" alt="{{ image_alt }}"/>
    <hr/>
-   <p class="text-sm text-gray-500">Nahl Munif Basalamah, 12 September 2002</p>
+   <p class="text-sm text-gray-500">{{ author }}, {{ date }}</p>
    <h1>{{ title }}</h1>
    {{ content | safe }}
 </section>

@@ -83,7 +83,7 @@ module.exports = {
             img: {
               'margin-top': '0',
               'margin-bottom': '0',
-              'box-shadow': '0px 2px 4px -2px rgba(0, 0, 0, 30%)'
+              'box-shadow': '0px 0px 48px rgba(0, 0, 0, 0.14)'
             },
             'ul > li': {
               '&::before': {
