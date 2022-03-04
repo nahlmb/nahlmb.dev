@@ -39,18 +39,7 @@ module.exports = {
           css: {
             color: theme('colors.grey.800'),
             a: {
-              color: theme('colors.red.500'),
-              'text-decoration': 'none',
-              '&:hover, &.active': {
-                color: 'white',
-                'background-color': theme('colors.red.500'),
-                strong: {
-                  color: 'white'
-                },
-              },
-            },
-            strong: {
-              color: theme('colors.red.500')
+              "font-weight" : 'bold'
             },
             h1: {
               color: theme('colors.grey.800'),
@@ -99,21 +88,14 @@ module.exports = {
             }
           },
         },
-
         dark: {
           css: {
             color: 'white',
             a: {
-              color: theme('colors.red.500'),
-              'text-decoration': 'none',
-              '&:hover, &.active': {
-                color: 'white',
-                'background-color': theme('colors.red.500'),
-              },
+              color: 'white',
+              "font-weight" : 'bold'
             },
-            strong: {
-              color: theme('colors.red.500')
-            },
+            
             hr : {
               borderColor: theme('colors.gray.800')
             },

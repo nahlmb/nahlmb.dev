@@ -1,4 +1,4 @@
 {
     "layout" : "base_write.njk",
-    "tags" : "writes"
+    "tags" : "articles"
 }
